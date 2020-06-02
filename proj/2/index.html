@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users MVC</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>Safe Content</h1>
+    <h2>MVC - Model-View-Controller</h2>
+
+    <section class="login">
+        <input class="username" type="text" placeholder="Username" />
+        <input class="password" type="text" placeholder="Password" />
+        <button onclick="onLogin()">Login</button>
+    </section>
+
+    <section class="logedin" hidden>Welcome <span></span>!
+        <button class="logout" onclick="doLogout()">Logout</button>
+    </section>
+    <div class="secret" hidden><img src="/img/hello.jpg">
+    </div>
+    <section class="admin" hidden>
+        <a href="/admin.html"> User-List </a>
+    </section>
+
+
+
+    <script src="js/storage.service.js"></script>
+    <script src="js/user-service.js"></script>
+    <script src="js/user-controller.js"></script>
+
+</body>
+
+</html>

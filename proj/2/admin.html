@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users MVC</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onLoad()">
+    <h1>Safe Content</h1>
+    <h2>ADMIN ONLY !!!</h2>
+
+    
+    <div>
+        <table class="list-users" hidden>
+            <thead>
+                <tr>
+                    <th>username</th>
+                    <th>password</th>
+                    <th>lastLoginTime</th>
+                    <th>isAdmin</th>
+                </tr>
+            </thead>
+            <tbody class="user-list-body">
+            </tbody>
+        </table>
+    </div>
+
+<script src="js/storage.service.js"></script>
+<script src="js/admin-service.js"></script>
+<script src="js/admin-controller.js"></script>
+
+</body>
+
+</html>

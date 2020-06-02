@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(211, 143, 211);
+    text-align: center;
+}
+
+.login {
+    padding: 15px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+.logedin {
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.logout {
+    float: right;
+}
+
+.admin {
+    margin: 5px;
+    background-color: yellow;
+}
+
+table {
+    /* border-spacing: 0.5rem; */
+    background-color: thistle;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+}
+
+h2 {
+    color: red;
+}
